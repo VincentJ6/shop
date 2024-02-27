@@ -1,0 +1,228 @@
+
+
+.nav-bar,
+.nav-bar * {
+  box-sizing: border-box;
+}
+.nav-bar {
+  background: var(--off-black, #111111);
+  height: 148px;
+  position: relative;
+  overflow: hidden;
+}
+.logo {
+  width: 242px;
+  height: 75px;
+  position: absolute;
+  left: 114px;
+  top: 37px;
+  overflow: visible;
+}
+.frame-2 {
+  padding: 0px 25px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 682px;
+  position: absolute;
+  left: 798px;
+  top: 63px;
+}
+.group-12 {
+  flex-shrink: 0;
+  width: 50px;
+  height: 36px;
+  position: static;
+}
+.home {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(--heading-2-font-family, "RobotoCondensed-Bold", sans-serif);
+  font-size: var(--heading-2-font-size, 20px);
+  font-weight: var(--heading-2-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-132 {
+  background: #afed00;
+  position: absolute;
+  right: 94.28%;
+  left: 0.15%;
+  width: 5.57%;
+  bottom: 0%;
+  top: 88.89%;
+  height: 11.11%;
+}
+.catalogs {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(--heading-2-font-family, "RobotoCondensed-Bold", sans-serif);
+  font-size: var(--heading-2-font-size, 20px);
+  font-weight: var(--heading-2-font-weight, 700);
+  position: relative;
+}
+.collections {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(--heading-2-font-family, "RobotoCondensed-Bold", sans-serif);
+  font-size: var(--heading-2-font-size, 20px);
+  font-weight: var(--heading-2-font-weight, 700);
+  position: relative;
+}
+.contact-us {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(--heading-2-font-family, "RobotoCondensed-Bold", sans-serif);
+  font-size: var(--heading-2-font-size, 20px);
+  font-weight: var(--heading-2-font-weight, 700);
+  position: relative;
+}
+.frame-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1657px;
+  top: 57px;
+}
+.icon-cart {
+  flex-shrink: 0;
+  width: 37.07px;
+  height: 33.37px;
+  position: relative;
+  overflow: visible;
+}
+.icon-search {
+  flex-shrink: 0;
+  width: 28.57px;
+  height: 28.57px;
+  position: relative;
+  overflow: visible;
+}
+.icon-hamburger-menu {
+  flex-shrink: 0;
+  width: 25px;
+  height: 21.43px;
+  position: relative;
+  overflow: visible;
+}
+
+
+
+.nav-link {
+    color: white;
+}
+
+
+
+
+
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
